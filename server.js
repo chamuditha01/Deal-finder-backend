@@ -6,7 +6,7 @@ const app = express();
 const PORT = 5000;
 
 const corsOptions = {
-  origin: "http://localhost:3000", // frontend
+  origin: "https://cryptodealfinder.netlify.app/", // frontend
   methods: ["GET"],
   credentials: false,
 };
@@ -69,7 +69,7 @@ app.get("/price/binance/:symbol", async (req, res) => {
   } catch (err) {
     res.status(500).json({ error: "Error fetching from Binance" });
   }
-});
+});1
 
 
 // ===== KRAKEN =====
