@@ -11,7 +11,7 @@ const connectBybit = require('./exchanges/bybit');
 
 // Enable CORS only for localhost:3000
 app.use(cors({
-  origin: 'http://localhost:3000'
+  origin: ['http://localhost:3000', 'https://cryptodealfinder.netlify.app']
 }));
 
 connectBinance();
