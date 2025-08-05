@@ -10,7 +10,11 @@ const pairs = [
   'DOT-USD',
   'ADA-USD',
   'DOGE-USD',
+  'TURBO-USD',
+  'XRP-USD',
 ];
+
+
 
 function connectCoinbase() {
   const ws = new WebSocket('wss://ws-feed.exchange.coinbase.com');

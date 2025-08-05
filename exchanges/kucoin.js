@@ -11,7 +11,10 @@ const pairs = {
   DOT: 'DOT-USDT',
   ADA: 'ADA-USDT',
   DOGE: 'DOGE-USDT',
+  TURBO: 'TURBO-USDT',
+  XRP: 'XRP-USDT',
 };
+
 
 
 async function connectKucoin() {

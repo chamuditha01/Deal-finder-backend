@@ -10,6 +10,8 @@ const pairs = {
   DOT: 'dotusdt',
   ADA: 'adausdt',
   DOGE: 'dogeusdt',
+  TURBO: 'turbousdt',
+  XRP: 'xrpusdt',
 };
 
 function connectBinance() {

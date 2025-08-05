@@ -10,7 +10,9 @@ const pairs = {
   DOT: 'DOTUSDT',
   ADA: 'ADAUSDT',
   DOGE: 'DOGEUSDT',
+  XRP: 'XRPUSDT',
 };
+
 
 
 function connectBybit() {
