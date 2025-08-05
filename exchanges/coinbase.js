@@ -1,7 +1,16 @@
 const WebSocket = require('ws');
 const { updatePrice } = require('../priceStore');
 
-const pairs = ['BTC-USD', 'ETH-USD', 'SOL-USD', 'SHIB-USD', 'PEPE-USD', 'DOT-USD', 'ADA-USD'];
+const pairs = [
+  'BTC-USD',
+  'ETH-USD',
+  'SOL-USD',
+  'SHIB-USD',
+  'PEPE-USD',
+  'DOT-USD',
+  'ADA-USD',
+  'DOGE-USD',
+];
 
 function connectCoinbase() {
   const ws = new WebSocket('wss://ws-feed.exchange.coinbase.com');

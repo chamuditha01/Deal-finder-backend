@@ -9,7 +9,9 @@ const pairs = {
   PEPE: 'PEPEUSDT',
   DOT: 'DOTUSDT',
   ADA: 'ADAUSDT',
+  DOGE: 'DOGEUSDT',
 };
+
 
 function connectBybit() {
   const ws = new WebSocket('wss://stream.bybit.com/v5/public/spot');

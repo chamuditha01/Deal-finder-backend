@@ -10,7 +10,9 @@ const pairs = {
   PEPE: 'PEPE-USDT',
   DOT: 'DOT-USDT',
   ADA: 'ADA-USDT',
+  DOGE: 'DOGE-USDT',
 };
+
 
 async function connectKucoin() {
   const { data } = await axios.post('https://api.kucoin.com/api/v1/bullet-public');

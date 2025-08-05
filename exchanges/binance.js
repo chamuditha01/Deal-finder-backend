@@ -9,6 +9,7 @@ const pairs = {
   PEPE: 'pepeusdt',
   DOT: 'dotusdt',
   ADA: 'adausdt',
+  DOGE: 'dogeusdt',
 };
 
 function connectBinance() {
