@@ -8,6 +8,7 @@ const connectBinance = require('./exchanges/binance');
 const connectCoinbase = require('./exchanges/coinbase');
 const connectKucoin = require('./exchanges/kucoin');
 const connectBybit = require('./exchanges/bybit');
+const connectKraken = require('./exchanges/kraken');
 
 // Enable CORS only for localhost:3000
 app.use(cors({
@@ -18,6 +19,7 @@ connectBinance();
 connectCoinbase();
 connectKucoin();
 connectBybit();
+connectKraken();
 
 app.get('/prices', (req, res) => {
   res.json(getPrices());
