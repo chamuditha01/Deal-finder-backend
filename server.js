@@ -83,7 +83,7 @@ async function getAllBinanceFees() {
   return filteredFees;
 }
 
-// API route
+// API rout
 app.get('/api/fees', async (req, res) => {
   try {
     const fees = await getAllBinanceFees();
